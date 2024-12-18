@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes - SmartChef</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 style="text-align: center; color: orange">SmartChef</h1>
+            <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; justify-content: center;">
+                <li style="margin: 0 15px;"><a href="home.html" style="text-decoration: none; color: #fff;">Home</a></li>
+                <li style="margin: 0 15px;"><a href="recipes.html" style="text-decoration: none; color: #fff;">Recipes</a></li>
+                <li style="margin: 0 15px;"><a href="ingredients.html" style="text-decoration: none; color: #fff;">Ingredients</a></li>
+                <li style="margin: 0 15px;"><a href="food.html" style="text-decoration: none; color: #fff;">Food</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2 style="text-align: center; margin-top: 20px;">Recipes</h2>
+
+        <div class="filter-bar" style="text-align: center; margin: 20px 0;">
+            <label for="recipe-filter">Filter Recipes:</label>
+            <select id="recipe-filter">
+                <option value="all">All</option>
+                <option value="vegan">Vegan</option>
+                <option value="gluten-free">Gluten-Free</option>
+                <option value="ketogenic">Ketogenic</option>
+                <option value="low-carb">Low-Carb</option>
+            </select>
+            <button>Apply Filter</button>
+        </div>
+
+        <div class="recipe-grid">
+            <div class="recipe-card">
+                <img src="images/recipe1.jpeg" width="300" height="300"alt="Recipe Image">
+                <div class="content">
+                    <h3>Spaghetti Carbonara</h3>
+                    <p>A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.</p>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="images/recipe2.jpeg" width="300" height="300" alt="Recipe Image">
+                <div class="content">
+                    <h3>Vegetarian Stir Fry</h3>
+                    <p>A quick and healthy stir-fry packed with colorful vegetables.</p>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="images/recipe3.jpeg" width="300" height="300" alt="Recipe Image">
+                <div class="content">
+                    <h3>Chicken Curry</h3>
+                    <p>A flavorful and spicy chicken curry dish with aromatic spices.</p>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="images/recipe4.jpeg" width="300" height="300" alt="Recipe Image">
+                <div class="content">
+                    <h3>Avocado Salad</h3>
+                    <p>A light and refreshing salad with avocado, cherry tomatoes, and olive oil.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p style="text-align: center; font-size: 0.9em;">&copy; 2024 SmartChef. All rights reserved. | <a href="#" style="color: #fff; text-decoration: none;">Privacy Policy</a> | <a href="#" style="color: #fff; text-decoration: none;">Terms of Service</a></p>
+    </footer>
+</body>
+</html>

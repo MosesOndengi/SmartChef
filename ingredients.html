@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingredients - SmartChef</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 style="text-align: center; color: orange">SmartChef</h1>
+            <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; justify-content: center;">
+                <li style="margin: 0 15px;"><a href="home.html" style="text-decoration: none; color: #fff;">Home</a></li>
+                <li style="margin: 0 15px;"><a href="recipes.html" style="text-decoration: none; color: #fff;">Recipes</a></li>
+                <li style="margin: 0 15px;"><a href="ingredients.html" style="text-decoration: none; color: #fff;">Ingredients</a></li>
+                <li style="margin: 0 15px;"><a href="food.html" style="text-decoration: none; color: #fff;">Food</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2 style="text-align: center; margin-top: 20px;">Ingredients Management</h2>
+        <p style="text-align: center; margin: 10px 20px;">Add, view, or remove ingredients you have at home and get recipe suggestions based on them.</p>
+
+        <section id="add-ingredients" style="text-align: center; margin: 20px;">
+            <h3>Add Ingredients</h3>
+            <input type="text" placeholder="Enter an ingredient (e.g., chicken)" style="padding: 10px; width: 300px;">
+            <button style="margin-left: 10px;">Add</button>
+        </section>
+
+        <section id="ingredient-list" style="margin: 20px auto; width: 80%; text-align: center;">
+            <h3>Your Ingredients</h3>
+            <ul style="list-style-type: none; padding: 0; margin: 20px 0; text-align: left; display: inline-block;">
+                <li>Chicken <button style="margin-left: 10px;">Remove</button></li>
+                <li>Rice <button style="margin-left: 10px;">Remove</button></li>
+                <li>Tomatoes <button style="margin-left: 10px;">Remove</button></li>
+            </ul>
+        </section>
+
+        <section id="find-recipes" style="text-align: center; margin: 20px;">
+            <button style="padding: 10px 20px; background-color: #001f3f; color: #fff; border: none; border-radius: 5px;">Find Recipes</button>
+        </section>
+    </div>
+
+    <footer>
+        <p style="text-align: center; font-size: 0.9em;">&copy; 2024 SmartChef. All rights reserved. | <a href="#" style="color: #fff; text-decoration: none;">Privacy Policy</a> | <a href="#" style="color: #fff; text-decoration: none;">Terms of Service</a></p>
+    </footer>
+</body>
+</html>

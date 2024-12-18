@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartChef</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center; color: orange">SmartChef</h1>
+        <nav>
+            <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; justify-content: center;">
+                <li style="margin: 0 15px;"><a href="home.html" style="text-decoration: none; color: #fff;">Home</a></li>
+                <li style="margin: 0 15px;"><a href="recipes.html" style="text-decoration: none; color: #fff;">Recipes</a></li>
+                <li style="margin: 0 15px;"><a href="ingredients.html" style="text-decoration: none; color: #fff;">Ingredients</a></li>
+                <li style="margin: 0 15px;"><a href="food.html" style="text-decoration: none; color: #fff;">Food</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="introduction">
+            <h1 style="text-align: center; margin: 20px; color: orange;">Welcome to SmartChef!</h1>
+            <p style="text-align: center; margin: 20px;">Discover a world of culinary possibilities with SmartChef. Our innovative platform empowers you to create delicious and nutritious meals tailored to your preferences.</p>
+            
+        </section>
+        <section id="ingredient-search">
+            <h2 style="text-align: center; margin-top: 20px;">Find Recipes by Ingredients</h2>
+            <div class="search-bar">
+                <input type="text" placeholder="Enter ingredients (e.g., chicken, rice)...">
+                <button>Find Recipes</button>
+            </div>
+            <p style="text-align: center; margin: 20px;">With SmartChef, you can:</p>
+           <ul style="list-style-type: none; padding: 0; margin: 0; text-align: center; ">
+              <li>Search for recipes based on ingredients you have on hand.</li>
+              <li>Explore a vast collection of recipes categorized by cuisine, diet, and occasion.</li>
+              <li>Receive personalized recipe recommendations based on your past searches and preferences.</li>
+              <li>Track your nutritional intake and set personalized health goals.</li>
+            </ul>
+        </section>
+
+        <section id="dietary-preferences" style="margin-top: 40px;">
+            <h2 style="text-align: center;">Customize Your Dietary Preferences</h2>
+            <form style="text-align: center; margin: 20px;">
+                <label for="diet">Select your diet:</label>
+                <select id="diet" name="diet">
+                    <option value="vegan">Vegan</option>
+                    <option value="gluten-free">Gluten-Free</option>
+                    <option value="ketogenic">Ketogenic</option>
+                    <option value="low-carb">Low-Carb</option>
+                </select>
+                <button type="submit" style="margin-left: 10px;">Save Preferences</button>
+            </form>
+        </section>
+
+        <section id="health-insights" style="margin-top: 40px;">
+            <h2 style="text-align: center;">Health Insights and Nutritional Information</h2>
+            <p style="text-align: center; margin: 0 20px;">Explore recipes with detailed nutritional information including calorie counts, macronutrient breakdowns, and more to support your health goals.</p>
+        </section>
+
+        <section id="food-waste-reduction" style="margin-top: 40px;">
+            <h2 style="text-align: center;">Reduce Food Waste</h2>
+            <p style="text-align: center; margin: 0 20px;">Use SmartChef to find recipes that make the most of your perishable ingredients, helping you save money and minimize waste.</p>
+        </section>
+
+        <section id="personalized-recommendations" style="margin-top: 40px;">
+            <h2 style="text-align: center;">Personalized Recipe Recommendations</h2>
+            <p style="text-align: center; margin: 0 20px;">The more you use SmartChef, the smarter it gets! Enjoy personalized recipe suggestions tailored to your taste preferences and cooking habits.</p>
+        </section>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="recipes.html" style="text-decoration: none; background-color: #001f3f; color: #fff; padding: 10px 20px; border-radius: 5px;">Explore All Recipes</a>
+        </div>
+    </div>
+
+    <footer>
+        <p style="text-align: center; font-size: 0.9em;">&copy; 2024 SmartChef. All rights reserved. | <a href="#" style="color: #fff; text-decoration: none;">Privacy Policy</a> | <a href="#" style="color: #fff; text-decoration: none;">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
